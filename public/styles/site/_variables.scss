@@ -1,9 +1,26 @@
 // Override Bootstrap variables in this file, e.g.
 
+//FONTS
+
+$font-navbar:'Effra W01', sans-serif;
 $font-size-base: 14px;
 
-$body-bg: #475C76;
-$wusb-blue: #AACCB1;
-$wusb-grey: #68B3AF;
-$wusb-white: #fff;
-$wusb-light: #417A9E;
+// The variable names can be misnomers... 
+
+
+// COLORS
+$body-bg: #ffffff; // This is the website body background
+$wusb-navbar: #000000; // This is the navbar and the schedule background
+$wusb-banner: #990000; //This is the banner of where the logo is(above the navbar)
+$wusb-default: #000000;  //Font color for body it is Black
+$wusb-navbar-font-color: #ffffff; // navbar font color
+$wusb-light: #417A9E; //forms being hovered??
+$wusb-schedule-link-color: #ffffff; // color of the anchor links on schedule
+$wusb-schedule-background-color: #BEBEBE; //background color fo schedule need to find where it is!
+$form-input-color: #ffffff; // form color input is white also used for dropdown for tt-menu
+$wysiwygform-box-color:  #BEBEBE;
+$drop-down-box-color: #ffffff; // color of background of dropdown menus/list
+$wusb-shadow-border: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+//box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
