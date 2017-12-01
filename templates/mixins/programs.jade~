@@ -169,4 +169,4 @@ mixin dj()
 				a(href='/playlist/' + playlist.id)=playlist.date.toLocaleDateString()
 	hr
 	h3 Description
-	p=description.dj
+	p=dj.description

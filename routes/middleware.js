@@ -32,7 +32,7 @@ exports.initLocals = function(req, res, next) {
 		{label: 'DJs', key: 'djs', href: '/djs'},
 		{label: 'Schedule', key: 'schedule', href: '/schedule'},
 		{label: 'Concert Billboard', key: 'billboard', href:'https://calendar.google.com/calendar/embed?src=usbcbb@gmail.com'},
-		{label: 'Pledge', key: 'pledge', href: '/pledge'}
+		{label: 'Pledge', key: 'pledge', href: 'https://docs.google.com/forms/d/e/1FAIpQLSdHna3i-oM6mQ6cSpETpT6VvEoFXR0TuNdOTebG0KNuucOhoA/viewform?c=0&w=1'}   
 	];
 	locals.user = req.user;
 	Program.model.getLiveProgram(function (err, prg) {
